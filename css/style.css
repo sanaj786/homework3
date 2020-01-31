@@ -1,0 +1,118 @@
+/*STARTER CODE*/
+
+/*
+We have started some of the selectors for you.
+For others we have provided hints on what the selectors should be.
+There are some missing selectors.
+
+Make sure to learn what the starter code does!!
+*/
+
+body{
+  color: #000000;
+  font-family: Andika, sans-serif;
+  font-size: 16px;
+  margin: 1.2em;
+  background-size: cover ;
+  background-position: center;
+  background-color: #dddddd;
+  background-image: url('../images/pigeon-background.JPEG');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+}
+
+main{
+  margin-bottom: 100px;
+}
+
+h1{
+  color: #8000FF;
+  font-size: 2em;
+  line-height: 1.5;
+  text-align: center;
+}
+
+caption{
+  margin:5px 0px;
+}
+
+p{
+  font-size: 16px;
+  padding-top: 10px;
+}
+
+a{
+  font-size: 16px;
+  color: #B21F50;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+
+a:focus{
+  border: 2px solid #000000;
+}
+
+table{
+    border: 2px solid #000000;
+    margin: auto;
+    border-collapse: separate;
+    border-radius: 15px;
+}
+
+thead>tr>th:first-child {
+  border-radius: 15px 0 0 0;
+}
+
+th:last-child {
+  border-radius: 0 15px 0 0;
+}
+
+th:only-child{
+  border-radius: 15px 15px 0 0;
+}
+
+.colhead{
+  background-color: #7e0820;
+  color: white;
+}
+
+.rowhead{
+  border-top: 2px solid #000000;
+}
+
+td{
+  padding: 15px;
+  text-align: center;
+  border-top: 2px solid #000000;
+}
+
+tr:nth-child(even){
+  background: transparent;
+}
+
+tr:nth-child(odd){
+  background: #d1d1d1;
+}
+
+tr:hover{
+  background: rgb(126, 8, 32);
+  opacity: 0.5;
+}
+
+th{
+  min-width: 100px;
+}
+
+*{}
+
+footer{
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  width:100%;
+  min-height: 60px;
+  background: #000000;
+  text-align:center;
+  color: #ffffff;
+}
